@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin-top: 0px;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -35,4 +37,282 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  background-color: #FFF3E0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #386641;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.kio{
+  border:1px solid black;
+}
+.kiopa{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.kiopapa{
+  border: 1px solid black;
+  border-radius: 20px 20px;
+  
+
+}
+.imgc{
+  background-image: url(./components/assets/image1.png);
+  z-index: -111;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.imgc2{
+  background-image: url(./components/assets/image2.png);
+  z-index: -11;
+  margin-top: 40px;
+}
+.im{
+  z-index: -1111;
+  height: 10%;
+  width:90%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.im2{
+  z-index: -111;
+  height: 4%;
+  width: 90%;
+  margin: auto;
+  margin-top: -100px;
+}
+.im3{
+  z-index: -1;
+  width: 9%;
+  height: 9%;
+  
+}
+.cont img{
+ margin-left: 6%;
+}
+.cont{
+  z-index:-1 ;
+  margin-top: -14%;
+  
+ 
+}
+.contt{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10%;
+  margin-top: -3%;
+
+}
+.gre{
+  color: #033d0fd9;
+
+}
+.gre2{
+  margin-top: 12%;
+}
+
+.first{
+  max-width: 45%;
+  margin-top: 5%;
+  /* padding: 20px; */
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+
+}
+.header {
+  display: flex;
+  width: 100%;
+  border-radius:  20px  20px 0 0  ;
+  justify-content: space-between;
+  align-items: center;
+ padding-bottom: 20px;
+  background: rgb(255,255,255);
+  background: linear-gradient(133deg, rgba(255,255,255,1) 0%, rgba(245,248,237,1) 99%);
+ 
+}
+
+.header__title {
+  font-size: 1.25em;
+  color: #333;
+  font-weight: 550;
+}
+
+.header__social {
+  font-size: 0.9em;
+ 
+  color: #464242;
+  border: 1px solid #042c03;
+  padding: 7px 19px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.paragraph{
+ margin: 5%;
+ color: #666;
+}
+.content__paragraph {
+
+  text-align: center;
+}
+
+.king{
+  display: flex;
+  margin-left: 5%;
+  justify-content: left;
+}
+.king span{
+  margin-top:-1.4%;
+ margin-right: 1%;
+ font-weight: 700;
+}
+
+.king h1{
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top:9% ;
+}
+
+.languages__language {
+  font-size: 0.8em;
+  color: #333;
+  background-color: #f8f8f8;
+  border: 1px solid #ddddddd6;
+  padding: 6px 18px;
+ 
+  border-radius: 30px ;
+}
+.ic{
+  display: flex;
+  
+  width: 100%;
+}
+
+.ic1{
+  
+    font-size: 1em;
+    color: #386641;
+
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 50%;
+    margin-left: 3.9%;
+    margin-bottom: 4.7%;
+ 
+}
+
+
+.sec{
+  border: 1px solid #ddd;
+  width:15%;
+  height:15%;
+  background: #fffcf2;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  border-radius: 20%;
+  margin-left: 3%;
+}
+.sec1{
+  border: 1px solid #ddd;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  
+}
+.sec img{
+ 
+  margin: 4%;
+  border-radius: 50%;
+
+}
+.sec .sec1p .sec1 img{
+  color: #386641;
+
+  background-color: #f8f8f8;
+}
+.sec1p{
+  border: 4px solid white;
+  margin: auto;
+  background-color:#e0e8e2;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  
+}
+.sec1pc{
+  border: 3px solid #ddd;
+  border-radius: 50%;
+}
+.languages1 {
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+
+  margin-bottom: 20px;
+  margin-top:9% ;
+}
+.languages__language1 {
+  font-size: 1em;
+  color: #3a643b;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  background-color: #f7f7fc;
+  border: 1px solid #ddddddd6;
+  padding: 6px 18px;
+  width: 24%;
+  border-radius: 30px ;
+  margin: auto;
+ 
+}
+.gre1{
+  margin-bottom: 3%;
+}
+
+.languages__language1 .gre1{
+  margin-top: 3%;
 }
